@@ -4,6 +4,7 @@ identity:
   label:
     en_US: Generate Image
     zh_Hans: 生成图像
+  icon: _assets/icon.svg
 description:
   en_US: Generate images using Gemini API
   zh_Hans: 使用 Gemini API 生成图像
