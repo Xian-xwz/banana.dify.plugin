@@ -1,11 +1,13 @@
-version: "0.0.1"
+version: "0.0.4"
 type: "plugin"
 author: "Xian-xwz"
 name: "banana"
 label:
   en_US: "Banana Image Generator"
   zh_Hans: "Banana 图像生成器"
-created_at: "2025-02-05T00:00:00Z"
+description:
+  en_US: "Image generation using Google Gemini."
+  zh_Hans: "使用 Google Gemini 生成图片。"
 icon: "_assets/icon.svg"
 
 resource:
@@ -23,10 +25,10 @@ permission:
   storage:
     enabled: false
 
-# ✅ 核心修改：直接指向工具定义文件
+# ✅ 指向 Provider 定义文件
 plugins:
   tools:
-    - "tools/generate_image.yaml"
+    - "provider/banana.yaml"
 
 meta:
   version: "0.0.1"
@@ -38,4 +40,4 @@ meta:
     version: "3.12"
     entrypoint: "main"
 
-privacy: "./privacy.md"
+privacy: "privacy.md"

@@ -53,8 +53,8 @@ class GenerateImageTool(Tool):
         # 计算图像尺寸
         width, height = self._calculate_dimensions(aspect_ratio, quality)
 
-        # 从凭证中获取 API Key
-        api_key = self.runtime.credentials.get("api_key", "")
+        # 从 Provider 凭证中获取 API Key
+        api_key = self.runtime.credentials.get("gemini_api_key", "")
 
         if not api_key:
             yield self.create_text_message("错误: 未配置 API Key")
