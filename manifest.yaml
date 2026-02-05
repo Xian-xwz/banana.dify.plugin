@@ -40,4 +40,6 @@ meta:
     version: "3.12"
     entrypoint: "main"
 
-privacy: "privacy.md"
+privacy:
+  en_US: "privacy.md"
+  zh_Hans: "privacy.md"
