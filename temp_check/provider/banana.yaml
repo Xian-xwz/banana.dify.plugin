@@ -1,0 +1,32 @@
+identity:
+  author: Xian-xwz
+  name: banana
+  label:
+    en_US: Banana
+    zh_Hans: Banana
+  description:
+    en_US: Provider for Gemini Image Generation
+    zh_Hans: Gemini 生图服务商
+  icon: icon.svg
+
+credentials_for_provider:
+  gemini_api_key:
+    type: secret-input
+    required: true
+    label:
+      en_US: Gemini API Key
+      zh_Hans: Gemini API Key
+    placeholder:
+      en_US: Enter your Gemini API Key
+      zh_Hans: 输入你的 Gemini API Key
+    help:
+      en_US: Get your API key from Google AI Studio
+      zh_Hans: 从 Google AI Studio 获取 API Key
+    url: https://aistudio.google.com/app/apikey
+
+tools:
+  - "tools/generate_image.yaml"
+
+extra:
+  python:
+    source: banana.py
