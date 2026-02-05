@@ -8,7 +8,7 @@ label:
 description:
   en_US: "Image generation using Google Gemini."
   zh_Hans: "使用 Google Gemini 生成图片。"
-icon: "icon.svg"
+icon: "_assets/icon.svg"
 
 resource:
   memory: 1048576
@@ -40,6 +40,4 @@ meta:
     version: "3.12"
     entrypoint: "main"
 
-privacy:
-  en_US: "privacy.md"
-  zh_Hans: "privacy.md"
+privacy: "privacy.md"
