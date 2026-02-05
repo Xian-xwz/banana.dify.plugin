@@ -1,5 +1,9 @@
 # 测试输出目录
 test_output/
+temp_check/
+
+# 打包文件
+*.zip
 
 # 环境变量文件
 .env

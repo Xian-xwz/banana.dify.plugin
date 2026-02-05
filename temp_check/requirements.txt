@@ -1,2 +1,0 @@
-dify-plugin-sdk
-requests
