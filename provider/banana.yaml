@@ -7,7 +7,7 @@ identity:
   description:
     en_US: Provider for Gemini Image Generation
     zh_Hans: Gemini 生图服务商
-  icon: assets/icon.svg
+  icon: icon.svg
 
 credentials_for_provider:
   gemini_api_key:
