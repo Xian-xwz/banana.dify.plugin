@@ -23,9 +23,10 @@ permission:
   storage:
     enabled: false
 
+# ✅ 核心修改：直接指向工具定义文件
 plugins:
   tools:
-    - "provider/banana.yaml"
+    - "tools/generate_image.yaml"
 
 meta:
   version: "0.0.1"
