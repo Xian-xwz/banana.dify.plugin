@@ -1,0 +1,14 @@
+identity:
+  author: Xian-xwz
+  name: banana
+  label:
+    en_US: Banana
+    zh_Hans: Banana
+  description:
+    en_US: Banana Image Generation
+    zh_Hans: Banana 图像生成
+tools:
+  - tools/generate_image.yaml
+extra:
+  python:
+    source: tools/generate_image.py
