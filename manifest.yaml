@@ -8,7 +8,7 @@ label:
 description:
   en_US: "Image generation using Google Gemini."
   zh_Hans: "使用 Google Gemini 生成图片。"
-icon: "_assets/icon.svg"
+icon: "icon.svg"
 
 resource:
   memory: 1048576
